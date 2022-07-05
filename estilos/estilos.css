@@ -78,6 +78,16 @@ body {
     line-height: 1.5;
     letter-spacing: .05em;
     margin-bottom: 40px;
+    animation-name: aparece;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes aparece {
+    0% {opacity: 0%;
+        transform: translateX(50px);}
+    100% {opacity: 100%;
+        transform: translateX(0);}
 }
 
 .parrafo-principal {
