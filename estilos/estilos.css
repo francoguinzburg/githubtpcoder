@@ -152,6 +152,7 @@ body {
     line-height: 1.5;
     letter-spacing: .05em;
     margin-bottom: 40px;
+    padding-top: 40px;
 }
 
 .parrafo-secundario {
@@ -320,7 +321,7 @@ iframe {
     }
 
     .index-info {
-        height: 860px;
+        height: 900px;
     }
 
     .pie {
@@ -328,11 +329,15 @@ iframe {
     }
 
     .contenedor-personajes {
-        height: 1300px;
+        height: 1340px;
     }
 
     .contenedor-boys {
         height: 1220px;
+    }
+
+    .trailers {
+        height: 1680px;
     }
 }
 
@@ -350,7 +355,7 @@ iframe {
     }
 
     .index-info {
-        height: 1160px;
+        height: 1200px;
     }
 
     .pie {
@@ -371,14 +376,14 @@ iframe {
     }
 
     .contenedor-boys {
-        height: 1040px;
+        height: 1060px;
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 480px){
     .logo {
         padding-left: 10px;
-        padding-right: 10px;
+        padding-right: 20px;
     }
 
     .titulo-principal {
@@ -392,7 +397,7 @@ iframe {
     }
 
     .principal {
-        height: 1000px;
+        height: 820px;
     }
 
     .tw {
@@ -404,7 +409,11 @@ iframe {
     }
 
     .index-info {
-        height: 1160px;
+        height: 980px;
+    }
+
+    .contenedor-nosotros {
+        height: 900px;
     }
 
     .index-video {
@@ -413,7 +422,7 @@ iframe {
     }
 
     .pie {
-        height: 380px;
+        height: 300px;
     }
 
     body {
@@ -426,7 +435,7 @@ iframe {
     }
 
     .menu-items li {
-        margin: 0 10px;
+        margin: 0 15px;
     }
 
     .contenedor-formulario {
@@ -448,7 +457,7 @@ iframe {
     }
 
     .contenedor-boys {
-        height: 960px;
+        height: 860px;
     }
 
     .titulo-secundario {
@@ -462,6 +471,37 @@ iframe {
     }
 
     .trailers {
-        height: 1000px;
+        height: 1080px;
+    }
+
+    .ver-serie {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .principal {
+        height: 800px;
+    }
+
+    .index-info {
+        height: 1040px;
+    }
+
+    .pie {
+        height: 280px;
+    }
+
+    .img-personajes {
+        width: 819px;
+        height: 480px;
+    }
+
+    .contenedor-personajes {
+        height: 1240px;
+    }
+
+    .contenedor-boys {
+        height: 1080px;
     }
 }
