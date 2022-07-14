@@ -113,11 +113,7 @@ body {
     text-decoration: none;
     color: white;
     font-weight: 600;
-}
-
-.ver-serie a:hover {
-    background-color: rgb(255, 65, 100);
-    transition: .5s;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .redes {
@@ -219,6 +215,7 @@ iframe {
 
 .link-formulario {
     color: crimson;
+    text-decoration: none;
 }
 
 .boton-registrar {
@@ -231,11 +228,6 @@ iframe {
     border-radius: 5px;
     border: none;
     cursor: pointer;
-}
-
-.boton-registrar:hover {
-    background-color: rgb(255, 65, 100);
-    transition: .5s;
 }
 
 .contenedor-nosotros {
@@ -299,7 +291,7 @@ iframe {
     }
 
     .index-info {
-        height: 820px;
+        height: 860px;
     }
     
     .pie {
@@ -321,7 +313,7 @@ iframe {
     }
 
     .index-info {
-        height: 900px;
+        height: 940px;
     }
 
     .pie {
