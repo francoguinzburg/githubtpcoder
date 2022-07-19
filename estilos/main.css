@@ -1,3 +1,4 @@
+/* variables */
 .boton-registrar:hover {
   background-color: white;
   color: crimson;
@@ -11,3 +12,29 @@
 .link-formulario:hover {
   color: yellow;
   text-decoration: underline; }
+
+/* mapa */
+/* bucle mapa */
+.boton-twitter {
+  color: #55acee; }
+
+.boton-facebook {
+  color: #3a5795; }
+
+.boton-instagram {
+  color: #E1306C; }
+
+/* mixins */
+/* map get */
+.facebook-contenedor, .twitter-contenedor, .instagram-contenedor {
+  border: #3a5795 solid 4px;
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  margin: 20px; }
+
+.twitter-contenedor {
+  border: #55acee solid 4px; }
+
+.instagram-contenedor {
+  border: #E1306C solid 4px; }
