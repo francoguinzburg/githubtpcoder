@@ -2,6 +2,7 @@
 
 $anchoPredet: 360px;
 $alturaPredet: 480px;
+$twitter: #55acee;
 
 .boton-registrar:hover {
     background-color: white;
@@ -11,8 +12,8 @@ $alturaPredet: 480px;
 
 .ver-serie {
     a:hover {
-    background-color: white;
-    color: crimson;
+    background-color: $twitter;
+    box-shadow: 0px 0px 20px 0px #55acee50;
     transition: .5s;
     }
 }
@@ -49,8 +50,8 @@ $redes: (
 
 .facebook-contenedor {
     border: map-get($redes, facebook) solid 4px;
-    @include medidas(60px, 60px);
-    border-radius: 15px;
+    @include medidas(60px, 55px);
+    border-radius: 60px;
     margin: 20px;
 }
 
@@ -62,4 +63,14 @@ $redes: (
 .instagram-contenedor {
     @extend .facebook-contenedor;
     border: map-get($redes, instagram) solid 4px;
+}
+
+.parrafo-detalles {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.detalle {
+    color: rgba(255, 255, 0, 0.825);
 }
